@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Modify CSS & js in matches",
+  "version": "0.0.1",
+  "description": "Modify css etc...",
+
+  "content_scripts": [
+    {
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://meet.google.com/*"]
+    }
+  ]
+}
